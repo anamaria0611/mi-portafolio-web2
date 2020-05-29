@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+.header{
+    border: 2px solid violet;
+    background-color: white;
+}
+.header__menu{
+    color: teal;
+    display: flex;
+    justify-content: space-between;
+}
+.header__menu ul{
+    display: flex;
+}
+.header__menu li{
+    display: inherit;
+}
+.header__menu a{
+    color: black;
+    padding: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.header__menu a:hover{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+}
+.container{
+    width: 1000px;
+    margin:0 auto;
+}
+
+.banner{
+    color: rgb(12, 9, 238);
+    background-color: rgb(255, 255, 255);
+}
+
+.banner .banner__hero{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.banner__text-hero{
+    padding: 80px 0 0 80px;
+    font-family: monospace;
+    font-size: 18px;
+}
+.portafolio{
+    display: flex;
+    margin: 0 auto;
+}
+.portafolio__box{
+    margin: 15px;
+    box-shadow: 0px 1px 8px 1px rgb(82, 6, 6);
+    border-radius: 10px;
+    width: 33%;
+}
+.portafolio__box img{
+     border-radius: 10px;
+}
+
+.portafolio__card {
+    margin: 20px;
+    padding: 5px;
+}
+.portafolio__card button{
+    background-color: teal;
+    color: tomato;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.title{
+    border-left: 6px solid aqua;
+    background-color: blue;
+}
+
+.proyectos{
+    display: flex;
+    margin: 0 auto;
+}
+.proyecto__box{
+    margin: 15px;
+    box-shadow: 0 px 1px 8px 2px rgb(148, 8, 8);
+    border-radius: 10px;
+    width: 50%;
+}
+.proyecto__box img{
+    border-radius: 10px;
+}
+
+.proyecto__body{
+    box-shadow: 0px -10px 10px 2px aqua;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.footer{
+    color: black;
+    background-color: chocolate;
+}
